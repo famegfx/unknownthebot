@@ -70,14 +70,14 @@ from telethon import Button, events
 @telethn.on(events.NewMessage(pattern="/alive"))
 async def awake(event):
   scenario = event.sender.first_name
-  scenario = "**♡ I,m scenario** \n\n"
+  scenario = "**♡ I,m unknown** \n\n"
   scenario += "**♡ I'm Working With Awesome Speed**\n\n"
   scenario += "**♡ Scenario: LATEST Version**\n\n"
-  scenario += "**♡ My Creator:** [TeamScenario](t.me/TeamScenario)\n\n"
+  scenario += "**♡ My Creator:** [TeamScenario](t.me/AboutUnkn0wn)\n\n"
   scenario += "**♡ Python-Telegram-Bot: v13.7**\n\n"
   scenario_BUTTON = [
       [
-          Button.url("Support", f"https://t.me/{SUPPORT_CHAT}"),
+          Button.url("Support", f"https://t.me/"),
           Button.url("Updates", f"https://t.me/{UPDATES_CHANNEL}"),
       ]
   ]
@@ -117,7 +117,7 @@ HELP_MSG = "Click the button below to get help manu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
     
 PM_START_TEXT = """
-────「 [Scenario](https://telegra.ph/file/7b8c52bd4c7b8b35ece20.jpg) 」────
+────「 [Scenario](https://telegra.ph/file/fd270aabc28cc126b271f.jpg) 」────
 *Hola! {},*
 *I am {} Anime themed advance group management bot with a lot of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
